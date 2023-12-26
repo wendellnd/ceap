@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<h2>Cadastrar produtos</h2>
+	<form  action = "Loja.php" method = "POST">
+		Nome do Produto: <br>
+		<input type="text" name="Produto"><br>
+		Preco do Produto:<br>
+		<input type="text" name="Preco"><br>
+		Categoria:<br>
+		<input type="text" name="Categoria"><br>
+		<input type="submit" value="Enviar Produto">
+	</form>
+	<br>
+	<form action = "Loja2.php" method = "POST">
+		<input type="submit" value="Consultar tabela">
+	</form>	
+		
+	<br>
+	<h2>Excluir produtos</h2>
+	<form action = "Loja3.php" method="POST">
+		Digite o codigo do produto:<br>
+		<input type = "text" name="Excluir"><br>
+		<input type="submit" value="Excluir item">
+	</form>
+
+</body>
+</html>

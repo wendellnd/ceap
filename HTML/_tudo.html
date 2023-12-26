@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+input.meu{
+	border-color: blue;
+}
+</style>
+<title>
+abcdario
+</title>
+</head>
+<body bgcolor = "#00FFFF">
+<p><a href = "https://www.devmedia.com.br/placeholder-em-html5-texto-padrao-de-input/24503">Site</a></p>
+
+
+<a href = "Modo_Deusa.html">MODO DEUSA</a>
+
+
+
+<p><a href = "arquivo2.html">Tá a fim de relaxa? <img src = "carinha.png" width = "30"/></a></p>
+
+
+<p><input class = "meu" type = "text" placeholder = "Nome">
+<p><input class = "meu" type = "text" placeholder = "Idade">
+<p><input class = "meu" type = "text" placeholder = "Altura">
+<p><input class = "meu" type = "text" placeholder = "Peso">
+
+<p><input type = "submit" value="Enviar" 
+    onclick="window.location='arquivo.html';"/></p>
+
+<p><b>Pesquisa: </b><input class = "meu" type = "search"></p>
+
+<form>
+  <input type="checkbox" name="p1" value="Bike"> I have a father<br>
+  <input type="checkbox" name="p2" value="Car"> I don't have a father 
+</form>
+
+<br><input type = "color">
+
+<p><input list="browsers">
+<p>Conseito:<select>
+<option>MB</option>
+<option>B</option>
+<option>R</option>
+<option>I</option>
+</select>
+</p>
+<datalist id="browsers">
+  <option value="Internet Explorer">
+  <option value="Firefox">
+  <option value="Google Chrome">
+  <option value="Opera">
+  <option value="Safari">
+</datalist></p>
+
+<p><input class = "meu" type = "range" min = "0" max "100"></p>
+
+
+<p><audio controls = "controls">
+  <source src="mario.mp3" type="audio/mp3">
+  Seu navegador não suporta o elemento <code>audio</code>.
+</audio></p>
+
+
+<img src = "sensor.png" width = "300"/>
+</body>
+</html>
+
+
+<HTML>
+<HEAD>
+<style>
+b.abc {
+	color: blue;
+}
+</style>
+<p>Caio Augusto</p>
+<style type="text/css">
+.botao{
+color: blue;
+width:100%;
+}
+</style>
+<script>
+/*
+E-mail:franknatus@hotmail.com
+WebSite:http://www.moneygratis.net
+Twitter:@lennonrangues
+------------------------------
+Aprenda! Aprimore! Compartilhe!
+*/
+var primeiro=0;
+var lastcommand;
+function escrever(valor)
+{
+    window.document.tela.screen.value=window.document.tela.screen.value+valor;
+}
+function salvavalor(nome)
+{
+   if(primeiro==0)
+   {
+      primeiro=window.document.tela.screen.value;
+      window.document.tela.screen.value="";
+      lastcommand=nome;
+   }
+   else
+   {
+      switch(lastcommand)
+      {
+      case '+':
+   	   window.document.tela.screen.value=eval(primeiro+'+'+window.document.tela.screen.value);
+         primeiro=window.document.tela.screen.value;
+         return primeiro;
+   	   break;
+      case '-':
+         window.document.tela.screen.value=primeiro-window.document.tela.screen.value;
+         primeiro=window.document.tela.screen.value;
+         return primeiro;
+         break;
+      case '/':
+         window.document.tela.screen.value=(primeiro)/(window.document.tela.screen.value);
+         primeiro=window.document.tela.screen.value;
+         return primeiro;   
+         break;
+      case '*':
+         window.document.tela.screen.value=primeiro*window.document.tela.screen.value;
+         primeiro=window.document.tela.screen.value; 
+         return primeiro;      
+         break;
+      }
+   }
+}
+</script>
+</HEAD>
+<BODY>
+<table valign="middle" align="center" border="1">
+<tr>
+  <td colspan="4"><b class = "abc"> Calculadora</b><form name="tela"><input type="text" size="20" name="screen"><input type="button" value="AC" onClick="primeiro=0;window.document.tela.screen.value='';"></form></td>
+</tr>
+<tr>
+  <td><input type="button" onClick="escrever(this.value);" value="1" class="botao"></td>
+  <td><input type="button" value="2" onClick="escrever(this.value);" class="botao"></td>
+  <td><input type="button" value="3" onClick="escrever(this.value);" class="botao"></td>
+  <td><input type="button" value="+" class="botao" OnClick="salvavalor(this.value);"></td>
+</tr><tr>
+  <td><input type="button" value="4" onClick="escrever(this.value);" class="botao"></td>
+  <td><input type="button" value="5" onClick="escrever(this.value);" class="botao"></td>
+  <td><input type="button" value="6" onClick="escrever(this.value);" class="botao"></td>
+  <td><input type="button" value="-" class="botao" OnClick="salvavalor(this.value);"></td>
+</tr><tr>
+  <td><input type="button" value="7" onClick="escrever(this.value);" class="botao"></td>
+  <td><input type="button" value="8" onClick="escrever(this.value);" class="botao"></td>
+  <td><input type="button" value="9" onClick="escrever(this.value);" class="botao"></td>
+  <td><input type="button" value="/" class="botao" OnClick="salvavalor(this.value);"></td>
+</tr><tr>
+  <td><input type="button" value="." onClick="escrever(this.value);" class="botao"</td>
+  <td><input type="button" value="0" onClick="escrever(this.value);" class="botao"></td>
+  <td><input type="button" value="=" class="botao" OnClick="window.document.tela.screen.value=salvavalor(lastcommand);"></td>
+  <td><input type="button" value="*" class="botao" OnClick="salvavalor(this.value);"></td>
+</tr>
+</table>
+</BODY>
+</HTML>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+h2{
+font-family:Arial;
+}
+p{
+font-family: Arial;
+text-align: justify;
+text-indent: 50px;
+}
+h3{
+text-align: center;
+font-style: oblique;
+}
+</style>
+</head>
+<body>
+<center><h2>AppInventor</h2></center>
+<hr>
+<p><b>MIT App Inventor</b>, também conhecido como <b>App Inventor for Android</b>, é uma aplicação <b>código aberto</b> originalmente criada pela <b>Google</b>, e atualmente mantida pelo <b>Massachusetts Institute of Technology</b>(MIT).</p>
+<hr>
+<p>Ele permite que os recém-chegados à <b>programação de computador</b> criem aplicativos de software para o <b>sistema operacional Android</b>. Ele usa uma interface gráfica, muito semelhante ao do zero e da interface do usuário StarLogo TNG, que permite aos usuários arrastar e soltar objetos visuais para criar um aplicativo que pode ser executado em dispositivos Android. Ao criar o App Inventor, o Google se valeu de pesquisas significativas prévia em informática educativa, bem como o trabalho feito dentro do Google em ambientes de desenvolvimento on-line.</p>
+<hr>
+<p>A plataforma App Inventor ainda é muito instável e amadora, focada e desenvolver apenas aplicativos para pesquisas escolares, impossibilitando o desenvolvimento de qualquer aplicativo profissional.</p>
+<hr>
+<h3>Anúncios</h3>
+<a href = "c.html">Linguagem C</a><br>
+<a href = "css.html">CSS</a><br><br>
+<br><a href = "produtos.html"><input type = "button" value = "Voltar"></a>
+</body>
+</html>
